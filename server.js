@@ -15,7 +15,7 @@ dotenv.config();
 
 const app = express();
 
-const allowedOrigins = (process.env.CLIENT_URL || "http://localhost:5173")
+const allowedOrigins = (process.env.CLIENT_URL || "https://multi-vendor-ecom-website.netlify.app" || "http://localhost:5173")
   .split(",")
   .map((o) => o.trim());
 
