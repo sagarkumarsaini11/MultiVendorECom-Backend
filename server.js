@@ -15,7 +15,7 @@ dotenv.config();
 
 const app = express();
 
-const allowedOrigins = ("https://multi-vendor-e-com-website.vercel.app" || "http://localhost:5173")
+const allowedOrigins = ("https://multi-vendor-e-com-website-eqqpmeplh.vercel.app" || "https://multi-vendor-e-com-website.vercel.app" || "http://localhost:5173")
   .split(",")
   .map((o) => o.trim());
 
